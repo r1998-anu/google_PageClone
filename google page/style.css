@@ -1,0 +1,113 @@
+body {
+    background-image: url(./images/backgroung.jpg);
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: end;
+
+}
+
+ul {
+
+    margin-top: 20px;
+
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav-list {
+    display: flex;
+
+}
+
+.nav-list li {
+    display: inline-block;
+    margin: 12px;
+    margin-top: 12px;
+}
+
+img[alt="img"] {
+    width: 40%;
+    height: 40%;
+    margin: 17px 12px;
+}
+
+.logo {
+    width: 30%;
+    position: absolute;
+    top: 18%;
+    left: 34%;
+
+}
+
+.search {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.search-bar {
+    border: 2px solid black;
+    padding: 5px 10px;
+    width: 795px;
+    border-radius: 50px;
+    display: flex;
+    background-color: white;
+
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.input-feild {
+    border: none;
+    width: 350px;
+    height: 28px;
+    outline: none;
+    font-size: large;
+    padding-left: 15px;
+    padding-top: 15px;
+    flex: 1;
+}
+
+.bookmark{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+
+.bookmark .icon{
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(205, 164, 244);
+    margin: 0px auto;
+}
+
+.icon p{
+    width: 23px;
+    height: 23px;
+    border-radius: 20px;
+    padding-left: 7px;
+    background-color: white;
+}
+
+.icon-wrapper{
+    width: max-content;  
+    margin: 0px 25px;
+}
+
+.bookmark .text{
+    margin-top: 23px;
+}
